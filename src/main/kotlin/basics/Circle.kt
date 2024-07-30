@@ -15,7 +15,7 @@ class Circle(
         println("perimetre of the $name = ${perimetre()}")
     }
 
-    override fun area() = radius * radius * pi
+    override fun area() = radius * radius * ImportantNumbers.PI
 
-    override fun perimetre() = 2 * radius * pi
+    override fun perimetre() = 2 * radius * ImportantNumbers.PI
 }

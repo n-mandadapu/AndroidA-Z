@@ -12,7 +12,7 @@ fun main() {
 
     println("---------------------------------------------")
 
-    val myCircle1= Circle(4.0,1)
+    val myCircle1= Circle(4.0)
 
     myCircle1.changeName("circle1")
     println(myCircle1.name)
