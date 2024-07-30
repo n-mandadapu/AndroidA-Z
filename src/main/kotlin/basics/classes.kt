@@ -25,5 +25,10 @@ fun main() {
 
     val myTriangle = Triangle(4.0,5.0,6.0)
 
+    val myCircle3 = Circle(5.0)
+
+    val myCircle4 = Circle.randomCircle()
+    //val myCircle4 = myCircle3.randomCircle()  -- error
+
     //val myShape= Shape("Whatever") // we shoud not be able to do this because shape class only carries the property name but not the actual dimensions , this is where we shold use the abstract classes
 }
